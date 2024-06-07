@@ -1,0 +1,233 @@
+repo_name: Jelloeater/python-amcrest
+report_id: 35469448a8c5afc1610832e0e73c854c
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T17:44:13+00:00'
+requested_by: flacjacket
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest
+  detection_source: Repo Metadata
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2016-10-25 03:37:37.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Douglas Schilling Landgraf
+  last_updated_on: 2017-01-09 03:22:52.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest
+  detection_source: Repo Metadata
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: argcomplete
+  description: Bash tab completion for argparse
+  package_url: https://pypi.org/project/argcomplete
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19928/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Sean Vig
+  last_updated_on: 2021-09-15 03:58:08.000000000 Z
+- name: mock
+  description: Rolling backport of unittest.mock for all Pythons
+  package_url: https://pypi.org/project/mock
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19876/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Max Velitchko
+  last_updated_on: 2020-01-06 17:53:52.000000000 Z
+- name: tox
+  description: Tox is a generic virtualenv management and test command line tool
+  package_url: https://pypi.org/project/tox
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19991/default_f2178576c59f6927768590a32b6ef092891768c5.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements_tests.txt
+  detection_source: requirements_tests.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 06:54:44.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/setup.py
+  detection_source: setup.py
+  last_updated_by: Sean Vig
+  last_updated_on: 2022-03-13 16:17:36.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Jelloeater/python-amcrest/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Marcelo Moreira de Mello
+  last_updated_on: 2017-03-16 07:01:10.000000000 Z
